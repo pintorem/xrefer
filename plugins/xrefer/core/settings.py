@@ -1004,6 +1004,7 @@ class XReferSettingsDialog(QDialog):
             "llm_model": self.llm_model_combo.currentText(),
             "api_key": self.api_key_edit.text(),
             "enable_exclusions": self.enable_exclusion_checkbox.isChecked(),
+            "exclude_non_language_libs" : self.exclude_non_language_libs_checkbox.isChecked(),
             # Add display options
             "display_options": {
                 "auto_size_graphs": self.auto_size_graphs.isChecked(),
